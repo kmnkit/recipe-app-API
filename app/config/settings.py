@@ -30,7 +30,7 @@ DJANGO_APPS = [
 
 PROJECT_APPS = ['core', 'users']
 
-THIRD_PARTY_APPS = ['rest_framework', ]
+THIRD_PARTY_APPS = ['rest_framework', 'rest_framework.authtoken', ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 
